@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B01A4BA1-6CBC-48F4-89D2-4E26B758913A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>My_planner</RootNamespace>
+    <AssemblyName>My_planner</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aFinance.Designer.cs">
+      <DependentUpon>aFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeProfile.Designer.cs">
+      <DependentUpon>ChangeProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewGoal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewGoal.Designer.cs">
+      <DependentUpon>NewGoal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersoanlNowAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersoanlNowAdd.Designer.cs">
+      <DependentUpon>PersoanlNowAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoneStudies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoneStudies.Designer.cs">
+      <DependentUpon>DoneStudies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Finance.Designer.cs">
+      <DependentUpon>Finance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FutureSt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FutureSt.Designer.cs">
+      <DependentUpon>FutureSt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FutureStudies.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FutureStudies.Designer.cs">
+      <DependentUpon>FutureStudies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="future_travel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="future_travel.Designer.cs">
+      <DependentUpon>future_travel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyProfile.Designer.cs">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewDoneFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewDoneFinance.Designer.cs">
+      <DependentUpon>NewDoneFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFinance.Designer.cs">
+      <DependentUpon>NewFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTravelles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTravelles.Designer.cs">
+      <DependentUpon>NewTravelles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="New_travel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="New_travel.Designer.cs">
+      <DependentUpon>New_travel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NowFinance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NowFinance.Designer.cs">
+      <DependentUpon>NowFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NowStudies.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NowStudies.Designer.cs">
+      <DependentUpon>NowStudies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="now_travel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="now_travel.Designer.cs">
+      <DependentUpon>now_travel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalFuture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PersonalFuture.Designer.cs">
+      <DependentUpon>PersonalFuture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personal_Now.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Personal_Now.Designer.cs">
+      <DependentUpon>Personal_Now.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeeGoal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeeGoal.Designer.cs">
+      <DependentUpon>SeeGoal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Travelled_where.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travelled_where.Designer.cs">
+      <DependentUpon>Travelled_where.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aFinance.resx">
+      <DependentUpon>aFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeProfile.resx">
+      <DependentUpon>ChangeProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGoal.resx">
+      <DependentUpon>NewGoal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersoanlNowAdd.resx">
+      <DependentUpon>PersoanlNowAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoneStudies.resx">
+      <DependentUpon>DoneStudies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finance.resx">
+      <DependentUpon>Finance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FutureSt.resx">
+      <DependentUpon>FutureSt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FutureStudies.resx">
+      <DependentUpon>FutureStudies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="future_travel.resx">
+      <DependentUpon>future_travel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyProfile.resx">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewDoneFinance.resx">
+      <DependentUpon>NewDoneFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFinance.resx">
+      <DependentUpon>NewFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTravelles.resx">
+      <DependentUpon>NewTravelles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New_travel.resx">
+      <DependentUpon>New_travel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NowFinance.resx">
+      <DependentUpon>NowFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NowStudies.resx">
+      <DependentUpon>NowStudies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="now_travel.resx">
+      <DependentUpon>now_travel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonalFuture.resx">
+      <DependentUpon>PersonalFuture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personal_Now.resx">
+      <DependentUpon>Personal_Now.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SeeGoal.resx">
+      <DependentUpon>SeeGoal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travelled_where.resx">
+      <DependentUpon>Travelled_where.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goal-setting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_previos-sail_15539.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tallships_lordnelson_625.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane-flight-sunset.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get-with-goals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setandreachgoals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_2017_Tesla_Model_S_640x420.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6412-ellsworth-ave-dallas-tx-1-MLS-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RoomSketcher-Home-Plans-3D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hd-wallpaper-ivy-leaves-207301.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

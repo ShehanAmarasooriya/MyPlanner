@@ -1,0 +1,142 @@
+C:\Users\Asus\source\repos\My_planner\My_planner\bin\Debug\My_planner.exe.config
+C:\Users\Asus\source\repos\My_planner\My_planner\bin\Debug\My_planner.exe
+C:\Users\Asus\source\repos\My_planner\My_planner\bin\Debug\My_planner.pdb
+C:\Users\Asus\source\repos\My_planner\My_planner\obj\Debug\My_planner.csprojAssemblyReference.cache
+C:\Users\Asus\source\repos\My_planner\My_planner\obj\Debug\My_planner.Properties.Resources.resources
+C:\Users\Asus\source\repos\My_planner\My_planner\obj\Debug\My_planner.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\My_planner\My_planner\obj\Debug\My_planner.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\My_planner\My_planner\obj\Debug\My_planner.exe
+C:\Users\Asus\source\repos\My_planner\My_planner\obj\Debug\My_planner.pdb
+C:\Users\Asus\source\repos\My_planner\My_planner\obj\Debug\My_planner.FrmLogin.resources
+C:\Users\Asus\source\repos\My_planner\My_planner\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Asus\source\repos\My_planner\My_planner\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Asus\source\repos\My_planner\My_planner\obj\Debug\My_planner.csproj.CopyComplete
+C:\Users\Asus\Desktop\My_planner\My_planner\bin\Debug\My_planner.exe.config
+C:\Users\Asus\Desktop\My_planner\My_planner\bin\Debug\My_planner.exe
+C:\Users\Asus\Desktop\My_planner\My_planner\bin\Debug\My_planner.pdb
+C:\Users\Asus\Desktop\My_planner\My_planner\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Asus\Desktop\My_planner\My_planner\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.Properties.Resources.resources
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.csproj.CopyComplete
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.exe
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.pdb
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.Form2.resources
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.Form1.resources
+C:\Users\Asus\Desktop\My_planner\My_planner\obj\Debug\My_planner.Form3.resources
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\bin\Debug\My_planner.exe.config
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.exe
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.pdb
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\bin\Debug\My_planner.exe
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\bin\Debug\My_planner.pdb
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Form1.resources
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Form2.resources
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Form3.resources
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Properties.Resources.resources
+C:\Users\Admin\Downloads\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.csproj.GenerateResource.Cache
+D:\My-planner-master\My-planner-master\My_planner\bin\Debug\My_planner.exe.config
+D:\My-planner-master\My-planner-master\My_planner\bin\Debug\My_planner.exe
+D:\My-planner-master\My-planner-master\My_planner\bin\Debug\My_planner.pdb
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Form1.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Form2.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Form3.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Properties.Resources.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.csproj.GenerateResource.cache
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.csproj.CoreCompileInputs.cache
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.csproj.CopyComplete
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.exe
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.pdb
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Main.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.MyProfile.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.ChangeProfile.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Personal_Now.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.future_travel.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.New_travel.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.NewTravelles.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.now_travel.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Travelled_where.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.NewGoal.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.PersonalFuture.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.SeeGoal.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Completed.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.DoneStudies.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.NowStudies.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.FutureSt.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.FutureStudies.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.aFinance.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.Finance.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.NewFinance.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.NewDoneFinance.resources
+D:\My-planner-master\My-planner-master\My_planner\obj\Debug\My_planner.NowFinance.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\bin\Debug\My_planner.exe.config
+C:\Users\Asus\Downloads\Compressed\My_planner\bin\Debug\My_planner.exe
+C:\Users\Asus\Downloads\Compressed\My_planner\bin\Debug\My_planner.pdb
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.csprojAssemblyReference.cache
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.aFinance.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.ChangeProfile.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Completed.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.DoneStudies.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Finance.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.FutureSt.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.FutureStudies.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.future_travel.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Main.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.MyProfile.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.NewDoneFinance.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.NewFinance.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.NewGoal.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.NewTravelles.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.New_travel.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.NowFinance.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.NowStudies.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.now_travel.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.PersonalFuture.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Personal_Now.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Properties.Resources.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.SeeGoal.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Travelled_where.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.csproj.GenerateResource.cache
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.csproj.CopyComplete
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.exe
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.pdb
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Login.resources
+C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Register.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\bin\Debug\My_planner.exe.config
+C:\Users\Asus\Desktop\New folder (2)\My_planner\bin\Debug\My_planner.exe
+C:\Users\Asus\Desktop\New folder (2)\My_planner\bin\Debug\My_planner.pdb
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.aFinance.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.ChangeProfile.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.DoneStudies.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Finance.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Login.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Register.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.FutureSt.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.FutureStudies.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.future_travel.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Main.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.MyProfile.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewDoneFinance.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewFinance.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewGoal.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewTravelles.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.New_travel.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NowFinance.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NowStudies.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.now_travel.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.PersonalFuture.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Personal_Now.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Properties.Resources.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.SeeGoal.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Travelled_where.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.csproj.CopyComplete
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.exe
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.pdb
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.PersoanlNowAdd.resources
