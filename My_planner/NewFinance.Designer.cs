@@ -165,9 +165,9 @@
             this.label5.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(33, 259);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 22);
+            this.label5.Size = new System.Drawing.Size(102, 22);
             this.label5.TabIndex = 71;
-            this.label5.Text = "Goal Name";
+            this.label5.Text = "Start Date";
             // 
             // NewFinance
             // 

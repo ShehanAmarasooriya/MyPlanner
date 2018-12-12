@@ -146,6 +146,7 @@
             this.btnnext.TabIndex = 13;
             this.btnnext.Text = "Next";
             this.btnnext.UseVisualStyleBackColor = true;
+            this.btnnext.Click += new System.EventHandler(this.btnnext_Click);
             // 
             // btnprevious
             // 

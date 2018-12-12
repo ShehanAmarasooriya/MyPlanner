@@ -80,11 +80,11 @@ namespace My_planner
             string st = Login.passingtext;
             con.Open();
 
-            SqlCommand cmd = new SqlCommand("select * from NowTravel where Username='" + st + "'", con);
+            SqlCommand cmd = new SqlCommand("select * from NowStudy where Username='" + st + "'", con);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             sda.Fill(dt);
             rownum--;
-            if (rownum < 1)
+            if (rownum <1)
             {
 
                 txtlevel.Text = (dt.Rows[rownum]["Levels"].ToString());

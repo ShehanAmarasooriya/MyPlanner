@@ -49,12 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="aFinance.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="aFinance.Designer.cs">
-      <DependentUpon>aFinance.cs</DependentUpon>
-    </Compile>
     <Compile Include="ChangeProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,9 +189,6 @@
     <Compile Include="Travelled_where.Designer.cs">
       <DependentUpon>Travelled_where.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="aFinance.resx">
-      <DependentUpon>aFinance.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ChangeProfile.resx">
       <DependentUpon>ChangeProfile.cs</DependentUpon>
     </EmbeddedResource>

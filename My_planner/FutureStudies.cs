@@ -15,6 +15,7 @@ namespace My_planner
     {
         SqlConnection con = new SqlConnection("Data Source=Shehan-PC;Initial Catalog=Myplanner;Integrated Security=True");
         string st = Login.passingtext;
+        int rownum = 0;
         public FutureStudies()
         {
             InitializeComponent();
@@ -91,7 +92,54 @@ namespace My_planner
 
         private void button1_Click(object sender, EventArgs e)
         {
+            DataTable dt = new DataTable();
+            string st = Login.passingtext;
+            con.Open();
 
+            SqlCommand cmd = new SqlCommand("select * from FutureSt where Username='" + st + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+            rownum--;
+            if (rownum < 1)
+            {
+                lblcountry.Text = (dt.Rows[rownum]["Country"].ToString());
+                lblIns.Text = (dt.Rows[rownum]["Ins"].ToString());
+                lblExanName.Text = (dt.Rows[rownum]["Exam"].ToString());
+                lblDuration.Text = (dt.Rows[rownum]["Durartion"].ToString());
+                lblcost.Text = (dt.Rows[rownum]["Cost"].ToString());
+                lblstartdate.Text = (dt.Rows[rownum]["Start"].ToString());
+
+
+
+            }
+            con.Close();
+        }
+
+        private void btnnext_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            string st = Login.passingtext;
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand("select * from FutureSt where Username='" + st + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+            rownum++;
+            if (rownum < dt.Rows.Count)
+            {
+
+                lblcountry.Text = (dt.Rows[rownum]["Country"].ToString());
+                lblIns.Text = (dt.Rows[rownum]["Ins"].ToString());
+                lblExanName.Text = (dt.Rows[rownum]["Exam"].ToString());
+                lblDuration.Text = (dt.Rows[rownum]["Durartion"].ToString());
+                lblcost.Text = (dt.Rows[rownum]["Cost"].ToString());
+                lblstartdate.Text = (dt.Rows[rownum]["Start"].ToString());
+
+
+               
+
+            }
+            con.Close();
         }
     }
 }

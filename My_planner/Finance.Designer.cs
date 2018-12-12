@@ -37,8 +37,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnnext = new System.Windows.Forms.Button();
+            this.btnpre = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.lblstatrt = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -48,10 +48,10 @@
             this.lblname.AutoSize = true;
             this.lblname.BackColor = System.Drawing.Color.Transparent;
             this.lblname.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.lblname.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblname.Font = new System.Drawing.Font("Lucida Sans", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblname.Location = new System.Drawing.Point(228, 25);
             this.lblname.Name = "lblname";
-            this.lblname.Size = new System.Drawing.Size(70, 24);
+            this.lblname.Size = new System.Drawing.Size(81, 28);
             this.lblname.TabIndex = 0;
             this.lblname.Text = "[Goal]";
             this.lblname.Click += new System.EventHandler(this.label1_Click);
@@ -61,10 +61,10 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(51, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 22);
+            this.label2.Size = new System.Drawing.Size(114, 22);
             this.label2.TabIndex = 1;
             this.label2.Text = "Total Cost";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -85,16 +85,17 @@
             this.txthand.Name = "txthand";
             this.txthand.Size = new System.Drawing.Size(195, 26);
             this.txthand.TabIndex = 4;
+            this.txthand.TextChanged += new System.EventHandler(this.txthand_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(51, 118);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(150, 22);
+            this.label3.Size = new System.Drawing.Size(162, 22);
             this.label3.TabIndex = 3;
             this.label3.Text = "Money In Hand";
             // 
@@ -103,10 +104,10 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(51, 157);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(295, 22);
+            this.label4.Size = new System.Drawing.Size(315, 22);
             this.label4.TabIndex = 5;
             this.label4.Text = "Contingency plans for the rest";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -126,33 +127,35 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(63, 270);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(48, 266);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 20);
+            this.label5.Size = new System.Drawing.Size(105, 24);
             this.label5.TabIndex = 41;
             this.label5.Text = "Start Date:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // button2
+            // btnnext
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(381, 312);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 35);
-            this.button2.TabIndex = 46;
-            this.button2.Text = "Next goal";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnnext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnext.Location = new System.Drawing.Point(381, 312);
+            this.btnnext.Name = "btnnext";
+            this.btnnext.Size = new System.Drawing.Size(86, 35);
+            this.btnnext.TabIndex = 46;
+            this.btnnext.Text = "Next goal";
+            this.btnnext.UseVisualStyleBackColor = true;
+            this.btnnext.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // btnpre
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(147, 312);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 35);
-            this.button1.TabIndex = 45;
-            this.button1.Text = "Previous goal";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnpre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpre.Location = new System.Drawing.Point(147, 312);
+            this.btnpre.Name = "btnpre";
+            this.btnpre.Size = new System.Drawing.Size(87, 35);
+            this.btnpre.TabIndex = 45;
+            this.btnpre.Text = "Previous goal";
+            this.btnpre.UseVisualStyleBackColor = true;
+            this.btnpre.Click += new System.EventHandler(this.btnpre_Click);
             // 
             // button3
             // 
@@ -170,11 +173,11 @@
             this.lblstatrt.AutoSize = true;
             this.lblstatrt.BackColor = System.Drawing.Color.Transparent;
             this.lblstatrt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.lblstatrt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstatrt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblstatrt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblstatrt.Location = new System.Drawing.Point(147, 270);
+            this.lblstatrt.Location = new System.Drawing.Point(151, 268);
             this.lblstatrt.Name = "lblstatrt";
-            this.lblstatrt.Size = new System.Drawing.Size(87, 20);
+            this.lblstatrt.Size = new System.Drawing.Size(105, 24);
             this.lblstatrt.TabIndex = 49;
             this.lblstatrt.Text = "Start Date:";
             // 
@@ -187,8 +190,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.lblstatrt);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnnext);
+            this.Controls.Add(this.btnpre);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label4);
@@ -215,8 +218,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnnext;
+        private System.Windows.Forms.Button btnpre;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label lblstatrt;
     }

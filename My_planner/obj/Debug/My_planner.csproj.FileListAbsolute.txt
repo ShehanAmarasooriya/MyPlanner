@@ -106,12 +106,11 @@ C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.exe
 C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.pdb
 C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Login.resources
 C:\Users\Asus\Downloads\Compressed\My_planner\obj\Debug\My_planner.Register.resources
-C:\Users\Asus\Desktop\New folder (2)\My_planner\bin\Debug\My_planner.exe.config
 C:\Users\Asus\Desktop\New folder (2)\My_planner\bin\Debug\My_planner.exe
-C:\Users\Asus\Desktop\New folder (2)\My_planner\bin\Debug\My_planner.pdb
-C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.csprojAssemblyReference.cache
-C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.aFinance.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\bin\Debug\My_planner.exe.config
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.ChangeProfile.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewGoal.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.PersoanlNowAdd.resources
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.DoneStudies.resources
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Finance.resources
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Login.resources
@@ -123,7 +122,6 @@ C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.Main.resour
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.MyProfile.resources
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewDoneFinance.resources
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewFinance.resources
-C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewGoal.resources
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NewTravelles.resources
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.New_travel.resources
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.NowFinance.resources
@@ -139,4 +137,5 @@ C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.csproj.Core
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.csproj.CopyComplete
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.exe
 C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.pdb
-C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.PersoanlNowAdd.resources
+C:\Users\Asus\Desktop\New folder (2)\My_planner\bin\Debug\My_planner.pdb
+C:\Users\Asus\Desktop\New folder (2)\My_planner\obj\Debug\My_planner.csprojAssemblyReference.cache

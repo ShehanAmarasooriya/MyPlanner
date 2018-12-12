@@ -46,11 +46,11 @@
             // 
             this.lblname.AutoSize = true;
             this.lblname.BackColor = System.Drawing.Color.Transparent;
-            this.lblname.Font = new System.Drawing.Font("Lucida Handwriting", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblname.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblname.Location = new System.Drawing.Point(194, 8);
+            this.lblname.Font = new System.Drawing.Font("Lucida Handwriting", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblname.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblname.Location = new System.Drawing.Point(194, 3);
             this.lblname.Name = "lblname";
-            this.lblname.Size = new System.Drawing.Size(176, 27);
+            this.lblname.Size = new System.Drawing.Size(199, 31);
             this.lblname.TabIndex = 0;
             this.lblname.Text = "[Goal name]";
             this.lblname.Click += new System.EventHandler(this.label1_Click);
@@ -70,7 +70,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Lucida Sans", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(46, 158);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 22);
@@ -81,11 +81,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(83, 242);
+            this.label3.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(19, 242);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 23);
+            this.label3.Size = new System.Drawing.Size(138, 27);
             this.label3.TabIndex = 3;
             this.label3.Text = "Start Date:";
             // 
@@ -93,11 +93,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(322, 242);
+            this.label4.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(302, 242);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 23);
+            this.label4.Size = new System.Drawing.Size(129, 27);
             this.label4.TabIndex = 5;
             this.label4.Text = "End Date:";
             // 
@@ -121,6 +121,7 @@
             this.button1.TabIndex = 20;
             this.button1.Text = "Previous goal";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -133,6 +134,7 @@
             this.button2.TabIndex = 21;
             this.button2.Text = "Next goal";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -164,23 +166,24 @@
             // 
             this.lblstatr.AutoSize = true;
             this.lblstatr.BackColor = System.Drawing.Color.Transparent;
-            this.lblstatr.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstatr.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblstatr.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblstatr.Location = new System.Drawing.Point(211, 242);
+            this.lblstatr.Location = new System.Drawing.Point(154, 242);
             this.lblstatr.Name = "lblstatr";
-            this.lblstatr.Size = new System.Drawing.Size(62, 23);
+            this.lblstatr.Size = new System.Drawing.Size(68, 27);
             this.lblstatr.TabIndex = 24;
             this.lblstatr.Text = "Start";
+            this.lblstatr.Click += new System.EventHandler(this.lblstatr_Click);
             // 
             // lblend
             // 
             this.lblend.AutoSize = true;
             this.lblend.BackColor = System.Drawing.Color.Transparent;
-            this.lblend.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblend.Font = new System.Drawing.Font("Lucida Sans", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblend.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblend.Location = new System.Drawing.Point(435, 242);
+            this.lblend.Location = new System.Drawing.Point(446, 242);
             this.lblend.Name = "lblend";
-            this.lblend.Size = new System.Drawing.Size(51, 23);
+            this.lblend.Size = new System.Drawing.Size(59, 27);
             this.lblend.TabIndex = 25;
             this.lblend.Text = "End";
             // 
@@ -202,6 +205,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.richdis);
             this.Controls.Add(this.lblname);
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "PersonalFuture";
             this.Size = new System.Drawing.Size(577, 362);
             this.Load += new System.EventHandler(this.PersonalFuture_Load);

@@ -15,6 +15,7 @@ namespace My_planner
     {
         SqlConnection con = new SqlConnection("Data Source=Shehan-PC;Initial Catalog=Myplanner;Integrated Security=True");
         string st = Login.passingtext;
+        int rownum = 0;
         public Personal_Now()
         {
             InitializeComponent();
@@ -44,6 +45,52 @@ namespace My_planner
                 richTextBox1.Text = b;
                 lblstart.Text = c;
                 lblEnd.Text = d;
+            }
+            con.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            string st = Login.passingtext;
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand("select * from PersonalNow where Username='" + st + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+            rownum++;
+            if (rownum < dt.Rows.Count)
+            {
+
+                lblgoal.Text = (dt.Rows[rownum]["GoalName"].ToString());
+                richTextBox1.Text = (dt.Rows[rownum]["Description"].ToString());
+                lblstart.Text = (dt.Rows[rownum]["StartDate"].ToString());
+                lblEnd.Text = (dt.Rows[rownum]["EndDate"].ToString());
+
+                con.Close();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            string st = Login.passingtext;
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand("select * from PersonalNow where Username='" + st + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+            rownum--;
+            if (rownum < 1)
+            {
+
+                lblgoal.Text = (dt.Rows[rownum]["GoalName"].ToString());
+                richTextBox1.Text = (dt.Rows[rownum]["Description"].ToString());
+                lblstart.Text = (dt.Rows[rownum]["StartDate"].ToString());
+                lblEnd.Text = (dt.Rows[rownum]["EndDate"].ToString());
+
+
+
             }
             con.Close();
         }

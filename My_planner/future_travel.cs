@@ -15,6 +15,7 @@ namespace My_planner
     {
         SqlConnection con = new SqlConnection("Data Source=Shehan-PC;Initial Catalog=Myplanner;Integrated Security=True");
         string st = Login.passingtext;
+        int rownum = 0;
         public future_travel()
         {
             InitializeComponent();
@@ -93,6 +94,56 @@ namespace My_planner
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            string st = Login.passingtext;
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand("select * from FutureTr where Username='" + st + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+            rownum++;
+            if (rownum < dt.Rows.Count)
+            {
+
+                txtplace.Text = (dt.Rows[rownum]["Place"].ToString());
+                lbldp.Text = (dt.Rows[rownum]["Departure"].ToString());
+                richTextBox1.Text = (dt.Rows[rownum]["Bring"].ToString());
+                richTextBox2.Text = (dt.Rows[rownum]["Buget"].ToString());
+               
+
+
+
+
+            }
+            con.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            string st = Login.passingtext;
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand("select * from FutureTr where Username='" + st + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+            rownum--;
+            if (rownum < 1)
+            {
+
+                txtplace.Text = (dt.Rows[rownum]["Place"].ToString());
+                lbldp.Text = (dt.Rows[rownum]["Departure"].ToString());
+                richTextBox1.Text = (dt.Rows[rownum]["Bring"].ToString());
+                richTextBox2.Text = (dt.Rows[rownum]["Buget"].ToString());
+
+
+
+            }
+            con.Close();
         }
     }
 }
